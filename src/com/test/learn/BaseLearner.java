@@ -1,12 +1,22 @@
 package com.test.learn;
 
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class BaseLearner {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
-		System.out.println("Welcome Everyone this project is to learn git properly");
-		System.out.println("I am using source tree as client");
-		System.out.println("repository is https://github.com/rakeshmick/LearnGit.git");
+
+		File file = new File("/Users/rakeshprabhakaran/Project/GitLearn/src/com/test/learn/gitRepoDetails.txt");
+		FileReader fileReader  = new FileReader(file); 
+		char [] a = new char[100];
+		fileReader.read(a);   // reads the content to the array
+		for(char c : a) {
+			 System.out.print(c);  
+		}
+		fileReader.close();
 	}
 
 }

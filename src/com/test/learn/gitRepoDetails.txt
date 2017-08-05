@@ -1,0 +1,3 @@
+Welcome Everyone this project is to learn git properly
+I am using source tree as client"
+repository is https://github.com/rakeshmick/LearnGit.git
