@@ -8,6 +8,8 @@ public class BaseLearner {
 
 	public static void main(String[] args) throws IOException {
 		
+		 System.out.println("Pushing a change to master directly ");
+		 System.out.println("this is after the other user made a branch from the master and started making changes");
 
 		File file = new File("/Users/rakeshprabhakaran/Project/GitLearn/src/com/test/learn/gitRepoDetails.txt");
 		FileReader fileReader  = new FileReader(file); 
