@@ -7,13 +7,10 @@ import java.io.IOException;
 public class BaseLearner {
 
 	public static void main(String[] args) throws IOException {
-<<<<<<< HEAD
-=======
+
 		
 		 System.out.println("Pushing a change to master directly ");
 		 System.out.println("this is after the other user made a branch from the master and started making changes");
->>>>>>> ad9e831082c272c5c7c7f625626aeeea543e1bba
-
 
 		readMyFile();
 	}
