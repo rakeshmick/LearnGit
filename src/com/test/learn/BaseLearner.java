@@ -8,13 +8,9 @@ public class BaseLearner {
 
 	public static void main(String[] args) throws IOException {
 
-<<<<<<< HEAD
 		
 		 System.out.println("Pushing a change to master directly ");
 		 
-=======
-		System.out.println("No commentss");
->>>>>>> externalise
 		readMyFile();
 	}
 
