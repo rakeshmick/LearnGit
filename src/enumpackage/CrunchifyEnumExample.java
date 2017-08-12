@@ -6,9 +6,7 @@ package enumpackage;
 public class CrunchifyEnumExample {
 
     public enum Company {
-        EBAY(30), PAYPAL(10), GOOGLE(15), YAHOO(20), ATT(25);
-        EBAY(30), PAYPAL(10), GOOGLE(15), YAHOO(20), ATT(25), MICROSOFT(35);
-        EBAY(30), PAYPAL(10), GOOGLE(15), YAHOO(20), ATT(25), RARA(40);
+        EBAY(30), PAYPAL(10), GOOGLE(15), YAHOO(20), ATT(25), MICROSOFT(35), RARA(40);
         private int value;
 
         private Company(int value) {
