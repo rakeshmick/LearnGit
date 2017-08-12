@@ -1,4 +1,4 @@
-package com.test.learn;
+package enumpackage;
 
 public enum Family {
 	father, mother, son, daughter
