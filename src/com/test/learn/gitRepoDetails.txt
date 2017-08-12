@@ -7,4 +7,5 @@ Intelligent two
 Eclipse three
 eclipse 4
 Intelligent 5
-Teaching7
+Teaching 7
+Understanding 6
