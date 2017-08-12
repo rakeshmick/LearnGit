@@ -6,4 +6,4 @@ Eclipse two
 Intelligent two
 Eclipse three
 eclipse 4
-intellige 5
+Intelligent 5
