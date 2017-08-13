@@ -18,5 +18,8 @@ public class CrunchifyEnumExample {
         for (Company cName : Company.values()) {
             System.out.println("Company Value: " + cName.value + " - Company Name: " + cName);
         }
+       for (Family family :  Family.values()) {
+		System.out.println(family);
+	}
     }
 }
