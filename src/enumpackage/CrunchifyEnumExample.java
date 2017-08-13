@@ -20,5 +20,8 @@ public class CrunchifyEnumExample {
         }
 
         System.out.println("Welcome in");
+       for (Family family :  Family.values()) {
+		System.out.println(family);
+	}
     }
 }
